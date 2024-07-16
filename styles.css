@@ -3,61 +3,43 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark text color */
 }
 
-.projects-section {
-    max-width: 800px;
-    margin: 40px auto;
+header {
+    background-color: #007bff; /* Blue header background */
+    color: #fff; /* White text color */
     padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-}
-
-.projects-section h2 {
     text-align: center;
-    color: #333;
 }
 
-.projects-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin-top: 20px;
-}
-
-.project-card {
-    background-color: #fff;
+main {
     padding: 20px;
+}
+
+.content-section {
+    background-color: #fff; /* White content background */
+    padding: 20px;
+    margin-bottom: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
-    flex: 1 1 300px; /* Flexbox properties to control card width */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.project-card:hover {
-    transform: translateY(-5px);
+.content-section h2 {
+    color: #333; /* Dark text color */
 }
 
-.project-card h3 {
-    color: #333;
+.content-section p {
+    color: #666; /* Gray text color */
 }
 
-.project-card p {
-    color: #666;
-}
-
-.btn {
-    display: inline-block;
-    padding: 8px 16px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-    background-color: #0056b3;
+footer {
+    background-color: #007bff; /* Blue footer background */
+    color: #fff; /* White text color */
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
