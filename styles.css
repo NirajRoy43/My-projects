@@ -3,13 +3,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0; /* Light gray background */
+    background-color: ; /* Light gray background */
     color: #333; /* Dark text color */
 }
 
 header {
-    background-color: #007bff; /* Blue header background */
-    color: #fff; /* White text color */
+    background-color: ; /* Blue header background */
+    color: ; /* White text color */
     padding: 20px;
     text-align: center;
 }
@@ -36,12 +36,12 @@ main {
 }
 
 .content-section p {
-    color: #666; /* Gray text color */
+    color: ; /* Gray text color */
 }
 
 footer {
-    background-color: #007bff; /* Blue footer background */
-    color: #fff; /* White text color */
+    background-color: ; /* Blue footer background */
+    color: ; /* White text color */
     padding: 10px;
     text-align: center;
     position: fixed;
