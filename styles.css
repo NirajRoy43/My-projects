@@ -14,6 +14,11 @@ header {
     text-align: center;
 }
 
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 main {
     padding: 20px;
 }
@@ -42,4 +47,9 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
 }
